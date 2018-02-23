@@ -167,9 +167,9 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl \
     lights.msm8916
 
-# LineageActions
+# MotoActions
 PRODUCT_PACKAGES += \
-    LineageActions
+    MotoActions
 
 # Media
 PRODUCT_COPY_FILES += \
