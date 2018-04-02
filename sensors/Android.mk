@@ -17,6 +17,9 @@
 LOCAL_TOP_DIR := $(call my-dir)
 LOCAL_PATH := $(LOCAL_TOP_DIR)
 
+LOCAL_C_INCLUDES := \
+	device/motorola/msm8916-common/include/hardware
+
 # Must be called before including any other makefiles.
 include $(call all-subdir-makefiles)
 
